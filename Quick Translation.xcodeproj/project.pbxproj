@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C9908311BEBB4A5001B7D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9908301BEBB4A5001B7D36 /* main.m */; };
+		0C9908341BEBB4A5001B7D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9908331BEBB4A5001B7D36 /* AppDelegate.m */; };
+		0C99083A1BEBB4A5001B7D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9908381BEBB4A5001B7D36 /* Main.storyboard */; };
+		0C99083C1BEBB4A5001B7D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C99083B1BEBB4A5001B7D36 /* Assets.xcassets */; };
+		0C99083F1BEBB4A5001B7D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C99083D1BEBB4A5001B7D36 /* LaunchScreen.storyboard */; };
+		0C9908471BEBDB9F001B7D36 /* AppSettings_simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C9908461BEBDB9F001B7D36 /* AppSettings_simple.plist */; };
+		0C9908491BEBDCA4001B7D36 /* LanguageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C9908481BEBDCA4001B7D36 /* LanguageList.plist */; };
+		0C99084B1BEBE746001B7D36 /* AppSetiings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C99084A1BEBE746001B7D36 /* AppSetiings.plist */; };
+		0C99084E1BEBEBB3001B7D36 /* DSTSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C99084D1BEBEBB3001B7D36 /* DSTSettingsTableViewController.m */; };
+		0C9908531BEBEF5A001B7D36 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9908521BEBEF5A001B7D36 /* Settings.m */; };
+		0C9909391BF7108E001B7D36 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9909381BF7108E001B7D36 /* ActionViewController.m */; };
+		0C99093C1BF7108E001B7D36 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C99093A1BF7108E001B7D36 /* MainInterface.storyboard */; };
+		0C9909401BF7108E001B7D36 /* Quik Translation Action.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0C9909351BF7108E001B7D36 /* Quik Translation Action.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C99093E1BF7108E001B7D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C9908241BEBB4A5001B7D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C9909341BF7108E001B7D36;
+			remoteInfo = "Quik Translation Action";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C9909441BF7108E001B7D36 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0C9909401BF7108E001B7D36 /* Quik Translation Action.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C99082C1BEBB4A5001B7D36 /* Quick Translation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Translation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9908301BEBB4A5001B7D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C9908321BEBB4A5001B7D36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C9908331BEBB4A5001B7D36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C9908391BEBB4A5001B7D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C99083B1BEBB4A5001B7D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C99083E1BEBB4A5001B7D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C9908401BEBB4A5001B7D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9908461BEBDB9F001B7D36 /* AppSettings_simple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppSettings_simple.plist; sourceTree = "<group>"; };
+		0C9908481BEBDCA4001B7D36 /* LanguageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LanguageList.plist; sourceTree = "<group>"; };
+		0C99084A1BEBE746001B7D36 /* AppSetiings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppSetiings.plist; sourceTree = "<group>"; };
+		0C99084C1BEBEBB3001B7D36 /* DSTSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTSettingsTableViewController.h; sourceTree = "<group>"; };
+		0C99084D1BEBEBB3001B7D36 /* DSTSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTSettingsTableViewController.m; sourceTree = "<group>"; };
+		0C9908511BEBEF5A001B7D36 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		0C9908521BEBEF5A001B7D36 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		0C9909351BF7108E001B7D36 /* Quik Translation Action.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quik Translation Action.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9909371BF7108E001B7D36 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		0C9909381BF7108E001B7D36 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		0C99093B1BF7108E001B7D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		0C99093D1BF7108E001B7D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9909451BF71C0F001B7D36 /* Quick Translation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Quick Translation.entitlements"; sourceTree = "<group>"; };
+		0C9909461BF71C4C001B7D36 /* Quik Translation Action.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Quik Translation Action.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C9908291BEBB4A5001B7D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C9909321BF7108E001B7D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9908231BEBB4A5001B7D36 = {
+			isa = PBXGroup;
+			children = (
+				0C99082E1BEBB4A5001B7D36 /* Quick Translation */,
+				0C9909361BF7108E001B7D36 /* Quik Translation Action */,
+				0C99082D1BEBB4A5001B7D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C99082D1BEBB4A5001B7D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C99082C1BEBB4A5001B7D36 /* Quick Translation.app */,
+				0C9909351BF7108E001B7D36 /* Quik Translation Action.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C99082E1BEBB4A5001B7D36 /* Quick Translation */ = {
+			isa = PBXGroup;
+			children = (
+				0C9909451BF71C0F001B7D36 /* Quick Translation.entitlements */,
+				0C9908381BEBB4A5001B7D36 /* Main.storyboard */,
+				0C99083B1BEBB4A5001B7D36 /* Assets.xcassets */,
+				0C99083D1BEBB4A5001B7D36 /* LaunchScreen.storyboard */,
+				0C9908401BEBB4A5001B7D36 /* Info.plist */,
+				0C99084F1BEBEBBF001B7D36 /* SettingsViewController */,
+				0C9908541BEBEF5E001B7D36 /* Model */,
+				0C9908501BEBEF04001B7D36 /* Settings */,
+				0C99082F1BEBB4A5001B7D36 /* Supporting Files */,
+			);
+			path = "Quick Translation";
+			sourceTree = "<group>";
+		};
+		0C99082F1BEBB4A5001B7D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C9908321BEBB4A5001B7D36 /* AppDelegate.h */,
+				0C9908331BEBB4A5001B7D36 /* AppDelegate.m */,
+				0C9908301BEBB4A5001B7D36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C99084F1BEBEBBF001B7D36 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C99084C1BEBEBB3001B7D36 /* DSTSettingsTableViewController.h */,
+				0C99084D1BEBEBB3001B7D36 /* DSTSettingsTableViewController.m */,
+			);
+			name = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		0C9908501BEBEF04001B7D36 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0C9908461BEBDB9F001B7D36 /* AppSettings_simple.plist */,
+				0C99084A1BEBE746001B7D36 /* AppSetiings.plist */,
+				0C9908481BEBDCA4001B7D36 /* LanguageList.plist */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		0C9908541BEBEF5E001B7D36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C9908511BEBEF5A001B7D36 /* Settings.h */,
+				0C9908521BEBEF5A001B7D36 /* Settings.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0C9909361BF7108E001B7D36 /* Quik Translation Action */ = {
+			isa = PBXGroup;
+			children = (
+				0C9909461BF71C4C001B7D36 /* Quik Translation Action.entitlements */,
+				0C9909371BF7108E001B7D36 /* ActionViewController.h */,
+				0C9909381BF7108E001B7D36 /* ActionViewController.m */,
+				0C99093A1BF7108E001B7D36 /* MainInterface.storyboard */,
+				0C99093D1BF7108E001B7D36 /* Info.plist */,
+			);
+			path = "Quik Translation Action";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C99082B1BEBB4A5001B7D36 /* Quick Translation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C9908431BEBB4A5001B7D36 /* Build configuration list for PBXNativeTarget "Quick Translation" */;
+			buildPhases = (
+				0C9908281BEBB4A5001B7D36 /* Sources */,
+				0C9908291BEBB4A5001B7D36 /* Frameworks */,
+				0C99082A1BEBB4A5001B7D36 /* Resources */,
+				0C9909441BF7108E001B7D36 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C99093F1BF7108E001B7D36 /* PBXTargetDependency */,
+			);
+			name = "Quick Translation";
+			productName = "Quick Translation";
+			productReference = 0C99082C1BEBB4A5001B7D36 /* Quick Translation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C9909341BF7108E001B7D36 /* Quik Translation Action */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C9909431BF7108E001B7D36 /* Build configuration list for PBXNativeTarget "Quik Translation Action" */;
+			buildPhases = (
+				0C9909311BF7108E001B7D36 /* Sources */,
+				0C9909321BF7108E001B7D36 /* Frameworks */,
+				0C9909331BF7108E001B7D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quik Translation Action";
+			productName = "Quik Translation Action";
+			productReference = 0C9909351BF7108E001B7D36 /* Quik Translation Action.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C9908241BEBB4A5001B7D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = DSTech;
+				TargetAttributes = {
+					0C99082B1BEBB4A5001B7D36 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4KD2ZB99BC;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					0C9909341BF7108E001B7D36 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4KD2ZB99BC;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0C9908271BEBB4A5001B7D36 /* Build configuration list for PBXProject "Quick Translation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C9908231BEBB4A5001B7D36;
+			productRefGroup = 0C99082D1BEBB4A5001B7D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C99082B1BEBB4A5001B7D36 /* Quick Translation */,
+				0C9909341BF7108E001B7D36 /* Quik Translation Action */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C99082A1BEBB4A5001B7D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C99083F1BEBB4A5001B7D36 /* LaunchScreen.storyboard in Resources */,
+				0C9908471BEBDB9F001B7D36 /* AppSettings_simple.plist in Resources */,
+				0C99084B1BEBE746001B7D36 /* AppSetiings.plist in Resources */,
+				0C9908491BEBDCA4001B7D36 /* LanguageList.plist in Resources */,
+				0C99083C1BEBB4A5001B7D36 /* Assets.xcassets in Resources */,
+				0C99083A1BEBB4A5001B7D36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C9909331BF7108E001B7D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C99093C1BF7108E001B7D36 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C9908281BEBB4A5001B7D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9908341BEBB4A5001B7D36 /* AppDelegate.m in Sources */,
+				0C9908311BEBB4A5001B7D36 /* main.m in Sources */,
+				0C9908531BEBEF5A001B7D36 /* Settings.m in Sources */,
+				0C99084E1BEBEBB3001B7D36 /* DSTSettingsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C9909311BF7108E001B7D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9909391BF7108E001B7D36 /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C99093F1BF7108E001B7D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C9909341BF7108E001B7D36 /* Quik Translation Action */;
+			targetProxy = 0C99093E1BF7108E001B7D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C9908381BEBB4A5001B7D36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C9908391BEBB4A5001B7D36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C99083D1BEBB4A5001B7D36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C99083E1BEBB4A5001B7D36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C99093A1BF7108E001B7D36 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C99093B1BF7108E001B7D36 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C9908411BEBB4A5001B7D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C9908421BEBB4A5001B7D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C9908441BEBB4A5001B7D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Quick Translation/Quick Translation.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quick Translation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DST.Quick-Translation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0C9908451BEBB4A5001B7D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Quick Translation/Quick Translation.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quick Translation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DST.Quick-Translation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0C9909411BF7108E001B7D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quik Translation Action/Quik Translation Action.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quik Translation Action/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DST.Quick-Translation.Quik-Translation-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0C9909421BF7108E001B7D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quik Translation Action/Quik Translation Action.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quik Translation Action/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DST.Quick-Translation.Quik-Translation-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C9908271BEBB4A5001B7D36 /* Build configuration list for PBXProject "Quick Translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C9908411BEBB4A5001B7D36 /* Debug */,
+				0C9908421BEBB4A5001B7D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C9908431BEBB4A5001B7D36 /* Build configuration list for PBXNativeTarget "Quick Translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C9908441BEBB4A5001B7D36 /* Debug */,
+				0C9908451BEBB4A5001B7D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C9909431BF7108E001B7D36 /* Build configuration list for PBXNativeTarget "Quik Translation Action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C9909411BF7108E001B7D36 /* Debug */,
+				0C9909421BF7108E001B7D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C9908241BEBB4A5001B7D36 /* Project object */;
+}

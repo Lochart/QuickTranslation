@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string></string>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>style</key>
+				<integer>0</integer>
+				<key>textLabel</key>
+				<string>How To Use App</string>
+				<key>detailTextLabel</key>
+				<string></string>
+				<key>accessoryType</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>style</key>
+				<integer>0</integer>
+				<key>textLabel</key>
+				<string>Translation Form</string>
+				<key>detailTextLabel</key>
+				<string></string>
+				<key>accessoryType</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string></string>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>style</key>
+				<integer>0</integer>
+				<key>textLabel</key>
+				<string>How To Use App</string>
+				<key>detailTextLabel</key>
+				<string></string>
+				<key>accessoryType</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>style</key>
+				<integer>0</integer>
+				<key>textLabel</key>
+				<string>Translation Form</string>
+				<key>detailTextLabel</key>
+				<string></string>
+				<key>accessoryType</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string></string>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>style</key>
+				<integer>0</integer>
+				<key>textLabel</key>
+				<string>How To Use App</string>
+				<key>detailTextLabel</key>
+				<string></string>
+				<key>accessoryType</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>style</key>
+				<integer>0</integer>
+				<key>textLabel</key>
+				<string>Translation Form</string>
+				<key>detailTextLabel</key>
+				<string></string>
+				<key>accessoryType</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string></string>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>style</key>
+				<integer>0</integer>
+				<key>textLabel</key>
+				<string>How To Use App</string>
+				<key>detailTextLabel</key>
+				<string></string>
+				<key>accessoryType</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>style</key>
+				<integer>0</integer>
+				<key>textLabel</key>
+				<string>Translation Form</string>
+				<key>detailTextLabel</key>
+				<string></string>
+				<key>accessoryType</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
